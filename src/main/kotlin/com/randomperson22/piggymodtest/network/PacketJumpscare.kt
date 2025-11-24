@@ -1,50 +1,43 @@
-package com.randomperson22.piggymodtest.network;
+package com.randomperson22.piggymodtest.network
 
-import com.randomperson22.piggymodtest.events.Jumpscare_Handler;
+import com.randomperson22.piggymodtest.events.Jumpscare_Handler
+import io.netty.buffer.ByteBuf
+import net.minecraft.client.Minecraft
+import net.minecraft.entity.EntityLivingBase
+import net.minecraftforge.fml.common.network.simpleimpl.IMessage
+import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+import net.minecraftforge.fml.common.network.simpleimpl.MessageContext
 
-import io.netty.buffer.ByteBuf;
-import net.minecraft.client.Minecraft;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.client.entity.EntityPlayerSP;
-import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
-import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
-import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+class PacketJumpscare() : IMessage {
+    private var entityId: Int = 0
+    private var duration: Int = 0
 
-public class PacketJumpscare implements IMessage {
-    private int entityId;
-    private int duration;
-
-    public PacketJumpscare() {}
-    public PacketJumpscare(int entityId, int duration) {
-        this.entityId = entityId;
-        this.duration = duration;
+    constructor(entityId: Int, duration: Int) : this() {
+        this.entityId = entityId
+        this.duration = duration
     }
 
-    @Override
-    public void toBytes(ByteBuf buf) {
-        buf.writeInt(entityId);
-        buf.writeInt(duration);
+    override fun toBytes(buf: ByteBuf) {
+        buf.writeInt(entityId)
+        buf.writeInt(duration)
     }
 
-    @Override
-    public void fromBytes(ByteBuf buf) {
-        entityId = buf.readInt();
-        duration = buf.readInt();
+    override fun fromBytes(buf: ByteBuf) {
+        entityId = buf.readInt()
+        duration = buf.readInt()
     }
 
-    public static class Handler implements IMessageHandler<PacketJumpscare, IMessage> {
-        @Override
-        public IMessage onMessage(PacketJumpscare message, MessageContext ctx) {
-            Minecraft.getMinecraft().addScheduledTask(() -> {
-                Entity entity = Minecraft.getMinecraft().world.getEntityByID(message.entityId);
-                EntityPlayerSP player = Minecraft.getMinecraft().player;
-                if (entity instanceof EntityLivingBase) {
+    class Handler : IMessageHandler<PacketJumpscare, IMessage> {
+        override fun onMessage(message: PacketJumpscare, ctx: MessageContext): IMessage? {
+            Minecraft.getMinecraft().addScheduledTask {
+                val entity = Minecraft.getMinecraft().world.getEntityByID(message.entityId)
+                val player = Minecraft.getMinecraft().player
+                if (entity is EntityLivingBase) {
                     // Trigger jumpscare only for the targeted player
-                    Jumpscare_Handler.triggerJumpscareClient((EntityLivingBase) entity, player, message.duration);
+                    Jumpscare_Handler.triggerJumpscareClient(entity, player, message.duration)
                 }
-            });
-            return null;
+            }
+            return null
         }
     }
 }

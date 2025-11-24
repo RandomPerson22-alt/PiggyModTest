@@ -1,58 +1,58 @@
-[11:07:32] [main/INFO] [GradleStart]: userProperties: {}
-[11:07:32] [main/INFO] [GradleStart]: assetsDir: C:\Users\Zayan\.gradle\caches\retro_futura_gradle\assets
-[11:07:32] [main/INFO] [GradleStart]: assetIndex: 1.12.2
-[11:07:32] [main/INFO] [GradleStart]: version: FML_DEV
-[11:07:32] [main/INFO] [GradleStart]: username: Developer
-[11:07:32] [main/INFO] [GradleStart]: Extra: [--gameDir, C:\Users\Zayan\Documents\PiggyModTest\run, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
-[11:07:32] [main/INFO] [GradleStart]: Found and added coremod: io.github.chaosunity.forgelin.preloader.ForgelinPlugin
-[11:07:32] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:\Users\Zayan\.gradle\caches\retro_futura_gradle\assets, --assetIndex, 1.12.2, --accessToken{REDACTED}, --version, FML_DEV, --username, Developer, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --gameDir, C:\Users\Zayan\Documents\PiggyModTest\run, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[11:07:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[11:07:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[11:07:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[11:07:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[11:07:32] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
-[11:07:32] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_462, running on Windows 10:amd64:10.0, installed at C:\Users\Zayan\.gradle\jdks\azul_systems__inc_-8-amd64-windows.2\jre
-[11:07:32] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[11:07:32] [main/ERROR] [FML]: Full: C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[11:07:32] [main/ERROR] [FML]: Trimmed: c:/users/zayan/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[11:07:32] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[11:07:32] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[11:07:33] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[11:07:33] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[11:07:33] [main/INFO] [FML]: Found a command line coremod : io.github.chaosunity.forgelin.preloader.ForgelinPlugin
-[11:07:33] [main/INFO] [FML]: Ignoring missing certificate for coremod Forgelin-Continuous (io.github.chaosunity.forgelin.preloader.ForgelinPlugin), as this is probably a dev workspace
-[11:07:33] [main/INFO] [FML]: Searching C:\Users\Zayan\Documents\PiggyModTest\run\mods for mods
-[11:07:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[11:07:33] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[11:07:33] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[11:07:33] [main/INFO] [GradleStart]: Injecting location in coremod io.github.chaosunity.forgelin.preloader.ForgelinPlugin
-[11:07:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:07:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[11:07:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[11:07:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:07:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:07:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[11:07:34] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[11:07:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[11:07:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[11:07:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[11:07:34] [main/INFO] [Forgelin-Continuous Transformer]: Begin register to-be-transformed classes
-[11:07:34] [main/INFO] [Forgelin-Continuous Transformer]: Skipping registration...
-[11:07:34] [main/INFO] [Forgelin-Continuous Transformer]: Registration for transformation is completed
-[11:07:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[11:07:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[11:07:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[11:07:34] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[11:07:34] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Developer
-[11:07:37] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[11:07:37] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[11:07:38] [Client thread/INFO] [FML]: -- System Details --
+[16:55:50] [main/INFO] [GradleStart]: userProperties: {}
+[16:55:50] [main/INFO] [GradleStart]: assetsDir: C:\Users\Zayan\.gradle\caches\retro_futura_gradle\assets
+[16:55:50] [main/INFO] [GradleStart]: assetIndex: 1.12.2
+[16:55:50] [main/INFO] [GradleStart]: version: FML_DEV
+[16:55:50] [main/INFO] [GradleStart]: username: Developer
+[16:55:50] [main/INFO] [GradleStart]: Extra: [--gameDir, C:\Users\Zayan\Documents\PiggyModTest\run, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[16:55:50] [main/INFO] [GradleStart]: Found and added coremod: io.github.chaosunity.forgelin.preloader.ForgelinPlugin
+[16:55:50] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:\Users\Zayan\.gradle\caches\retro_futura_gradle\assets, --assetIndex, 1.12.2, --accessToken{REDACTED}, --version, FML_DEV, --username, Developer, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --gameDir, C:\Users\Zayan\Documents\PiggyModTest\run, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:55:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:55:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:55:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:55:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:55:50] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[16:55:50] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_472, running on Windows 10:amd64:10.0, installed at C:\Users\Zayan\.gradle\jdks\azul_systems__inc_-8-amd64-windows\zulu8.90.0.19-ca-jdk8.0.472-win_x64\jre
+[16:55:50] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[16:55:50] [main/ERROR] [FML]: Full: C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[16:55:50] [main/ERROR] [FML]: Trimmed: c:/users/zayan/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[16:55:50] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[16:55:50] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[16:55:51] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[16:55:51] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[16:55:51] [main/INFO] [FML]: Found a command line coremod : io.github.chaosunity.forgelin.preloader.ForgelinPlugin
+[16:55:51] [main/INFO] [FML]: Ignoring missing certificate for coremod Forgelin-Continuous (io.github.chaosunity.forgelin.preloader.ForgelinPlugin), as this is probably a dev workspace
+[16:55:51] [main/INFO] [FML]: Searching C:\Users\Zayan\Documents\PiggyModTest\run\mods for mods
+[16:55:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:55:51] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[16:55:51] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[16:55:51] [main/INFO] [GradleStart]: Injecting location in coremod io.github.chaosunity.forgelin.preloader.ForgelinPlugin
+[16:55:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:55:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:55:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[16:55:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:55:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:55:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:55:52] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[16:55:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:55:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:55:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:55:52] [main/INFO] [Forgelin-Continuous Transformer]: Begin register to-be-transformed classes
+[16:55:52] [main/INFO] [Forgelin-Continuous Transformer]: Skipping registration...
+[16:55:52] [main/INFO] [Forgelin-Continuous Transformer]: Registration for transformation is completed
+[16:55:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[16:55:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:55:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:55:52] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[16:55:52] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Developer
+[16:55:55] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[16:55:55] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[16:55:56] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_462, Azul Systems, Inc.
+	Java Version: 1.8.0_472, Azul Systems, Inc.
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Azul Systems, Inc.
-	Memory: 1163586760 bytes (1109 MB) / 1270874112 bytes (1212 MB) up to 5726797824 bytes (5461 MB)
+	Memory: 1121020600 bytes (1069 MB) / 1269825536 bytes (1211 MB) up to 5726797824 bytes (5461 MB)
 	JVM Flags: 2 total; -Xms1G -Xmx6G
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
@@ -60,13 +60,12 @@ Details:
 Forgelin-Continuous (Forgelin-Continuous-2.1.0.0-dev.jar)
   
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 581.57' Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
-[11:07:38] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
-[11:07:38] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[11:07:38] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[11:07:38] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[11:07:39] [Client thread/INFO] [FML]: Searching C:\Users\Zayan\Documents\PiggyModTest\run\mods for mods
-[11:07:40] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 132450400 nanos
-[11:07:40] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[16:55:56] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[16:55:56] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[16:55:57] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[16:55:57] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[16:55:57] [Client thread/INFO] [FML]: Searching C:\Users\Zayan\Documents\PiggyModTest\run\mods for mods
+[16:55:59] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -83,19 +82,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
-[11:07:40] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/kotlin/reflect/jvm/internal/impl/serialization/deserialization/builtins/BuiltInsResourceLoader.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\io.github.chaosunity.forgelin\Forgelin-Continuous\2.1.0.0\223558cbc6e48dc825f8fcb67ab1c5885f4ddaec\Forgelin-Continuous-2.1.0.0-dev.jar - probably a corrupt zip
+[16:55:59] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/kotlin/reflect/jvm/internal/impl/serialization/deserialization/builtins/BuiltInsResourceLoader.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\io.github.chaosunity.forgelin\Forgelin-Continuous\2.1.0.0\223558cbc6e48dc825f8fcb67ab1c5885f4ddaec\Forgelin-Continuous-2.1.0.0-dev.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -110,16 +109,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -128,7 +127,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:40] [Client thread/WARN] [FML]: Zip file Forgelin-Continuous-2.1.0.0-dev.jar failed to read properly, it will be ignored
+[16:55:59] [Client thread/WARN] [FML]: Zip file Forgelin-Continuous-2.1.0.0-dev.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -143,16 +142,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -161,7 +160,8 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[16:55:59] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 151397600 nanos
+[16:55:59] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -178,19 +178,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
-[11:07:41] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/kotlin/reflect/jvm/internal/impl/serialization/deserialization/builtins/BuiltInsResourceLoader.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\2.1.0\dc3753b59b67d79b7d2f546d51e22a0ec1f082d8\kotlin-reflect-2.1.0.jar - probably a corrupt zip
+[16:55:59] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/kotlin/reflect/jvm/internal/impl/serialization/deserialization/builtins/BuiltInsResourceLoader.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\2.1.0\dc3753b59b67d79b7d2f546d51e22a0ec1f082d8\kotlin-reflect-2.1.0.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -205,16 +205,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -223,7 +223,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/WARN] [FML]: Zip file kotlin-reflect-2.1.0.jar failed to read properly, it will be ignored
+[16:55:59] [Client thread/WARN] [FML]: Zip file kotlin-reflect-2.1.0.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -238,16 +238,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -256,7 +256,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[16:55:59] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -273,19 +273,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
-[11:07:41] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-core-jvm\1.9.0\9beade4c1c1569e4f36cbd2c37e02e3e41502601\kotlinx-coroutines-core-jvm-1.9.0.jar - probably a corrupt zip
+[16:55:59] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-core-jvm\1.9.0\9beade4c1c1569e4f36cbd2c37e02e3e41502601\kotlinx-coroutines-core-jvm-1.9.0.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -300,16 +300,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -318,7 +318,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/WARN] [FML]: Zip file kotlinx-coroutines-core-jvm-1.9.0.jar failed to read properly, it will be ignored
+[16:55:59] [Client thread/WARN] [FML]: Zip file kotlinx-coroutines-core-jvm-1.9.0.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -333,16 +333,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -351,7 +351,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[16:55:59] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -368,19 +368,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
-[11:07:41] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-jdk8\1.9.0\8290370427d17b921573534e14a37b659b5d3ab5\kotlinx-coroutines-jdk8-1.9.0.jar - probably a corrupt zip
+[16:55:59] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-jdk8\1.9.0\8290370427d17b921573534e14a37b659b5d3ab5\kotlinx-coroutines-jdk8-1.9.0.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -395,16 +395,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -413,7 +413,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/WARN] [FML]: Zip file kotlinx-coroutines-jdk8-1.9.0.jar failed to read properly, it will be ignored
+[16:55:59] [Client thread/WARN] [FML]: Zip file kotlinx-coroutines-jdk8-1.9.0.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -428,16 +428,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -446,7 +446,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[16:55:59] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -463,19 +463,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
-[11:07:41] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\2.1.0\c4a51be16c840b969ed706bc25d5836b099d188a\kotlin-stdlib-jdk8-2.1.0.jar - probably a corrupt zip
+[16:55:59] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\2.1.0\c4a51be16c840b969ed706bc25d5836b099d188a\kotlin-stdlib-jdk8-2.1.0.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -490,16 +490,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -508,7 +508,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/WARN] [FML]: Zip file kotlin-stdlib-jdk8-2.1.0.jar failed to read properly, it will be ignored
+[16:55:59] [Client thread/WARN] [FML]: Zip file kotlin-stdlib-jdk8-2.1.0.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -523,16 +523,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -541,7 +541,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[16:55:59] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -558,19 +558,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
-[11:07:41] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-json-jvm\1.7.3\6701e8c68d9e82387ce72ee96e8ddf058208d58f\kotlinx-serialization-json-jvm-1.7.3.jar - probably a corrupt zip
+[16:55:59] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-json-jvm\1.7.3\6701e8c68d9e82387ce72ee96e8ddf058208d58f\kotlinx-serialization-json-jvm-1.7.3.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -585,16 +585,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -603,7 +603,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/WARN] [FML]: Zip file kotlinx-serialization-json-jvm-1.7.3.jar failed to read properly, it will be ignored
+[16:55:59] [Client thread/WARN] [FML]: Zip file kotlinx-serialization-json-jvm-1.7.3.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -618,16 +618,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -636,7 +636,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[16:55:59] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -653,19 +653,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
-[11:07:41] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-core-jvm\1.7.3\1f226780b845ff9206474c05159245d861556249\kotlinx-serialization-core-jvm-1.7.3.jar - probably a corrupt zip
+[16:55:59] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-core-jvm\1.7.3\1f226780b845ff9206474c05159245d861556249\kotlinx-serialization-core-jvm-1.7.3.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -680,16 +680,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -698,7 +698,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/WARN] [FML]: Zip file kotlinx-serialization-core-jvm-1.7.3.jar failed to read properly, it will be ignored
+[16:55:59] [Client thread/WARN] [FML]: Zip file kotlinx-serialization-core-jvm-1.7.3.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -713,16 +713,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -731,7 +731,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[16:55:59] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -748,19 +748,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
-[11:07:41] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\2.1.0\d77bee6c7bc849e7b9bf4b83e94e8fd1dfc0ea8a\kotlin-stdlib-jdk7-2.1.0.jar - probably a corrupt zip
+[16:55:59] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\2.1.0\d77bee6c7bc849e7b9bf4b83e94e8fd1dfc0ea8a\kotlin-stdlib-jdk7-2.1.0.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -775,16 +775,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -793,7 +793,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/WARN] [FML]: Zip file kotlin-stdlib-jdk7-2.1.0.jar failed to read properly, it will be ignored
+[16:55:59] [Client thread/WARN] [FML]: Zip file kotlin-stdlib-jdk7-2.1.0.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -808,16 +808,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -826,7 +826,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[16:55:59] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -843,19 +843,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
-[11:07:41] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\2.1.0\85f8b81009cda5890e54ba67d64b5e599c645020\kotlin-stdlib-2.1.0.jar - probably a corrupt zip
+[16:55:59] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\2.1.0\85f8b81009cda5890e54ba67d64b5e599c645020\kotlin-stdlib-2.1.0.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -870,16 +870,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -888,7 +888,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/WARN] [FML]: Zip file kotlin-stdlib-2.1.0.jar failed to read properly, it will be ignored
+[16:55:59] [Client thread/WARN] [FML]: Zip file kotlin-stdlib-2.1.0.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -903,16 +903,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -921,7 +921,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[16:55:59] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -938,19 +938,19 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
-[11:07:41] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\26.0.1\c7ce3cdeda3d18909368dfe5977332dfad326c6d\annotations-26.0.1.jar - probably a corrupt zip
+[16:55:59] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Zayan\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\26.0.1\c7ce3cdeda3d18909368dfe5977332dfad326c6d\annotations-26.0.1.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -965,16 +965,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -983,7 +983,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/WARN] [FML]: Zip file annotations-26.0.1.jar failed to read properly, it will be ignored
+[16:55:59] [Client thread/WARN] [FML]: Zip file annotations-26.0.1.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -998,16 +998,16 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.client.Minecraft.init(Minecraft.java:514) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_462]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_462]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_462]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_462]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_472]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_472]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_472]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_472]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87) [mclauncher-1.12.2.jar:?]
 	at GradleStart.main(GradleStart.java:19) [mclauncher-1.12.2.jar:?]
 Caused by: java.lang.IllegalArgumentException
@@ -1016,25 +1016,26 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[11:07:41] [Client thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
-[11:07:41] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, piggymodtest, geckolib3, forgelin_continuous, forgelin] at CLIENT
-[11:07:41] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, piggymodtest, geckolib3, forgelin_continuous, forgelin] at SERVER
-[11:07:45] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Piggy Mod, FMLFileResourcePack:GeckoLib, FMLFileResourcePack:Forgelin-Continuous, FMLFileResourcePack:Shadowfacts' Forgelin (Dummy)
-[11:07:45] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[11:07:45] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[11:07:45] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[11:07:45] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[11:07:45] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[11:07:45] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[11:07:46] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
-[11:07:50] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: ---- Minecraft Crash Report ----
-// My bad.
+[16:55:59] [Client thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
+[16:56:00] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, piggymodtest, geckolib3, forgelin_continuous, forgelin] at CLIENT
+[16:56:00] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, piggymodtest, geckolib3, forgelin_continuous, forgelin] at SERVER
+[16:56:03] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Piggy Mod, FMLFileResourcePack:GeckoLib, FMLFileResourcePack:Forgelin-Continuous, FMLFileResourcePack:Shadowfacts' Forgelin (Dummy)
+[16:56:03] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[16:56:03] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[16:56:03] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[16:56:03] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[16:56:03] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[16:56:03] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[16:56:04] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[16:56:08] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: ---- Minecraft Crash Report ----
+// Daisy, daisy...
 
-Time: 11/16/25 11:07 AM
+Time: 11/24/25 4:56 PM
 Description: There was a severe problem during mod loading that has caused the game to fail
 
 net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Piggy Mod (piggymodtest)
-Caused by: java.lang.NoClassDefFoundError: com/randomperson22/piggymodtest/init/ModEntities
+Caused by: java.lang.NoClassDefFoundError: com/randomperson22/piggymodtest/entities/piggy/EntityPiggy
+	at com.randomperson22.piggymodtest.init.ModEntities.register(ModEntities.kt:48)
 	at com.randomperson22.piggymodtest.CommonProxy.preInit(CommonProxy.kt:12)
 	at com.randomperson22.piggymodtest.ClientProxy.preInit(ClientProxy.kt:101)
 	at com.randomperson22.piggymodtest.PiggyModTest.preInit(PiggyModTest.kt:23)
@@ -1085,14 +1086,14 @@ Caused by: java.lang.NoClassDefFoundError: com/randomperson22/piggymodtest/init/
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:87)
 	at GradleStart.main(GradleStart.java:19)
-Caused by: java.lang.ClassNotFoundException: com.randomperson22.piggymodtest.init.ModEntities
+Caused by: java.lang.ClassNotFoundException: com.randomperson22.piggymodtest.entities.piggy.EntityPiggy
 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:419)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:352)
-	... 50 more
+	... 51 more
 Caused by: java.lang.NullPointerException
 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
-	... 52 more
+	... 53 more
 
 
 A detailed walkthrough of the error, its code path and all known details is as follows:
@@ -1102,9 +1103,9 @@ A detailed walkthrough of the error, its code path and all known details is as f
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_462, Azul Systems, Inc.
+	Java Version: 1.8.0_472, Azul Systems, Inc.
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Azul Systems, Inc.
-	Memory: 730820160 bytes (696 MB) / 1727528960 bytes (1647 MB) up to 5726797824 bytes (5461 MB)
+	Memory: 1004355184 bytes (957 MB) / 1820852224 bytes (1736 MB) up to 5726797824 bytes (5461 MB)
 	JVM Flags: 2 total; -Xms1G -Xmx6G
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: MCP 9.42 Powered by Forge 14.23.5.2847 8 mods loaded, 8 mods active
@@ -1125,4 +1126,4 @@ Details:
 Forgelin-Continuous (Forgelin-Continuous-2.1.0.0-dev.jar)
   
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 581.57' Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
-[11:07:50] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Zayan\Documents\PiggyModTest\run\crash-reports\crash-2025-11-16_11.07.50-client.txt
+[16:56:08] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Zayan\Documents\PiggyModTest\run\crash-reports\crash-2025-11-24_16.56.08-client.txt
