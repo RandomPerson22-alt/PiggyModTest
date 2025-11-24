@@ -1,19 +1,18 @@
-package com.randomperson22.piggymodtest.entities.teacher;
+package com.randomperson22.piggymodtest.entities.teacher
 
-import net.minecraft.util.ResourceLocation;
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import net.minecraft.util.ResourceLocation
+import software.bernie.geckolib3.model.AnimatedGeoModel
 
-public class TeacherModel extends AnimatedGeoModel<EntityTeacher> {
-	
-    public ResourceLocation getModelLocation(EntityTeacher entity) {
-        return new ResourceLocation("piggymodtest", "geo/teacher.geo.json");
+class TeacherModel : AnimatedGeoModel<EntityTeacher?>() {
+    override fun getModelLocation(entity: EntityTeacher?): ResourceLocation {
+        return ResourceLocation("piggymodtest", "geo/teacher.geo.json")
     }
 
-    public ResourceLocation getTextureLocation(EntityTeacher entity) {
-        return new ResourceLocation("piggymodtest", "textures/entities/teacher.png");
+    override fun getTextureLocation(entity: EntityTeacher?): ResourceLocation {
+        return ResourceLocation("piggymodtest", "textures/entities/teacher.png")
     }
 
-    public ResourceLocation getAnimationFileLocation(EntityTeacher entity) {
-        return new ResourceLocation("piggymodtest", "animations/piggy.animation.json");
+    override fun getAnimationFileLocation(entity: EntityTeacher?): ResourceLocation {
+        return ResourceLocation("piggymodtest", "animations/piggy.animation.json")
     }
 }

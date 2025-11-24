@@ -1,25 +1,18 @@
-package com.randomperson22.piggymodtest.entities.doggy;
+package com.randomperson22.piggymodtest.entities.doggy
 
-import com.randomperson22.piggymodtest.entities.EntityPiggyBase;
-import com.randomperson22.piggymodtest.init.ModSounds;
+import com.randomperson22.piggymodtest.entities.EntityPiggyBase
+import com.randomperson22.piggymodtest.init.ModSounds
+import net.minecraft.util.SoundEvent
+import net.minecraft.world.World
 
-import net.minecraft.util.SoundEvent;
-import net.minecraft.world.World;
+class EntityDoggy(worldIn: World) : EntityPiggyBase(worldIn) {
+    override val jumpscareSound: SoundEvent
+        get() = ModSounds.ENTITY_DOGGY_JUMPSCARE
 
-public class EntityDoggy extends EntityPiggyBase {
-	public static final int JUMPSCARE_DURATION = 31;
-	
-    public EntityDoggy(World worldIn) {
-        super(worldIn);
-    }
-    
-    @Override
-    public SoundEvent getJumpscareSound() {
-    	return ModSounds.ENTITY_DOGGY_JUMPSCARE;
-    }
-    
-    @Override
-    public int getPriority() {
-        return 1;
+    override val priority: Int
+        get() = 1
+
+    companion object {
+        const val JUMPSCARE_DURATION: Int = 31
     }
 }

@@ -1,9 +1,5 @@
-package com.randomperson22.piggymodtest.entities.sentinels;
+package com.randomperson22.piggymodtest.entities.sentinels
 
-import net.minecraft.world.World;
+import net.minecraft.world.World
 
-public class EntitySentinelRed extends SentinelBase {
-    public EntitySentinelRed(World worldIn) {
-        super(worldIn);
-    }
-}
+class EntitySentinelRed(worldIn: World) : SentinelBase(worldIn)

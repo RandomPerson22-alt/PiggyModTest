@@ -65,7 +65,7 @@ import com.randomperson22.piggymodtest.entities.zizzy.EntityZizzy
 import com.randomperson22.piggymodtest.entities.zizzy.ZizzyRenderer
 import com.randomperson22.piggymodtest.entities.zompiggy.EntityZompiggy
 import com.randomperson22.piggymodtest.entities.zompiggy.ZompiggyRenderer
-import com.randomperson22.piggymodtest.events.Jumpscare_Handler
+import com.randomperson22.piggymodtest.events.JumpscareHandler
 import com.randomperson22.piggymodtest.events.TickHandler
 import com.randomperson22.piggymodtest.init.ModBlocks
 import com.randomperson22.piggymodtest.init.ModItems
@@ -99,7 +99,7 @@ import org.apache.logging.log4j.Logger
 class ClientProxy : CommonProxy() {
     override fun preInit(event: FMLPreInitializationEvent?) {
         super.preInit(event)
-        Jumpscare_Handler.init()
+        JumpscareHandler.init()
     }
 
     override fun init(event: FMLInitializationEvent?) {

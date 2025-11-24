@@ -1,4 +1,4 @@
-package com.randomperson22.piggymodtest.network
+/*package com.randomperson22.piggymodtest.network
 
 import com.randomperson22.piggymodtest.entities.EntityPiggyBase
 import io.netty.buffer.ByteBuf
@@ -43,4 +43,4 @@ class PacketAnimation() : IMessage {
             return null
         }
     }
-}
+}*/

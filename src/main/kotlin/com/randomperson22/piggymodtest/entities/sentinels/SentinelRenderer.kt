@@ -1,11 +1,11 @@
-package com.randomperson22.piggymodtest.entities.sentinels;
+package com.randomperson22.piggymodtest.entities.sentinels
 
-import net.minecraft.client.renderer.entity.RenderManager;
-import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+import net.minecraft.client.renderer.entity.RenderManager
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer
 
-public class SentinelRenderer extends GeoEntityRenderer<SentinelBase> {
-    public SentinelRenderer(RenderManager renderManager) {
-        super(renderManager, new SentinelModel());
-        this.shadowSize = 0.5f;
+class SentinelRenderer(renderManager: RenderManager?) :
+    GeoEntityRenderer<SentinelBase?>(renderManager, SentinelModel()) {
+    init {
+        this.shadowSize = 0.5f
     }
 }

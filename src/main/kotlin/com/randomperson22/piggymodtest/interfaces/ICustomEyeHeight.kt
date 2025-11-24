@@ -1,5 +1,5 @@
-package com.randomperson22.piggymodtest.interfaces;
+package com.randomperson22.piggymodtest.interfaces
 
-public interface ICustomEyeHeight {
-    float getCustomEyeHeight();
+interface ICustomEyeHeight {
+    val customEyeHeight: Float
 }

@@ -1,17 +1,18 @@
-package com.randomperson22.piggymodtest.items;
+package com.randomperson22.piggymodtest.items
 
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
+import net.minecraft.entity.EntityLivingBase
+import net.minecraft.entity.player.EntityPlayer
+import net.minecraft.item.Item
+import net.minecraft.item.ItemStack
+import net.minecraft.util.DamageSource
 
-public class ItemBaseballBat extends Item {
-    public ItemBaseballBat() {
-        setMaxStackSize(1);
+class ItemBaseballBat : Item() {
+    init {
+        setMaxStackSize(1)
     }
 
-    @Override
-    public boolean hitEntity(ItemStack stack, net.minecraft.entity.EntityLivingBase target, net.minecraft.entity.EntityLivingBase attacker) {
-        target.attackEntityFrom(net.minecraft.util.DamageSource.causePlayerDamage((EntityPlayer) attacker), 5.0F);
-        return true;
+    override fun hitEntity(stack: ItemStack, target: EntityLivingBase, attacker: EntityLivingBase): Boolean {
+        target.attackEntityFrom(DamageSource.causePlayerDamage(attacker as EntityPlayer), 5.0f)
+        return true
     }
 }

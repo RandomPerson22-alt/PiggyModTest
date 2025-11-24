@@ -1,19 +1,18 @@
-package com.randomperson22.piggymodtest.entities.robby;
+package com.randomperson22.piggymodtest.entities.robby
 
-import net.minecraft.util.ResourceLocation;
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import net.minecraft.util.ResourceLocation
+import software.bernie.geckolib3.model.AnimatedGeoModel
 
-public class RobbyModel extends AnimatedGeoModel<EntityRobby> {
-	
-    public ResourceLocation getModelLocation(EntityRobby entity) {
-        return new ResourceLocation("piggymodtest", "geo/robby.geo.json");
+class RobbyModel : AnimatedGeoModel<EntityRobby?>() {
+    override fun getModelLocation(entity: EntityRobby?): ResourceLocation {
+        return ResourceLocation("piggymodtest", "geo/robby.geo.json")
     }
 
-    public ResourceLocation getTextureLocation(EntityRobby entity) {
-        return new ResourceLocation("piggymodtest", "textures/entities/robby.png");
+    override fun getTextureLocation(entity: EntityRobby?): ResourceLocation {
+        return ResourceLocation("piggymodtest", "textures/entities/robby.png")
     }
 
-    public ResourceLocation getAnimationFileLocation(EntityRobby entity) {
-        return new ResourceLocation("piggymodtest", "animations/robby.animation.json");
+    override fun getAnimationFileLocation(entity: EntityRobby?): ResourceLocation {
+        return ResourceLocation("piggymodtest", "animations/robby.animation.json")
     }
 }

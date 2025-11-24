@@ -1,11 +1,10 @@
-package com.randomperson22.piggymodtest.entities.umbra;
+package com.randomperson22.piggymodtest.entities.umbra
 
-import net.minecraft.client.renderer.entity.RenderManager;
-import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+import net.minecraft.client.renderer.entity.RenderManager
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer
 
-public class UmbraRenderer extends GeoEntityRenderer<EntityUmbra> {
-    public UmbraRenderer(RenderManager renderManager) {
-        super(renderManager, new UmbraModel());
-        this.shadowSize = 0.5F;
+class UmbraRenderer(renderManager: RenderManager?) : GeoEntityRenderer<EntityUmbra?>(renderManager, UmbraModel()) {
+    init {
+        this.shadowSize = 0.5f
     }
 }

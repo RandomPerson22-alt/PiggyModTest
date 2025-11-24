@@ -1,17 +1,22 @@
-package com.randomperson22.piggymodtest.init;
+package com.randomperson22.piggymodtest.init
 
-import com.randomperson22.piggymodtest.network.PacketJumpscare;
+import com.randomperson22.piggymodtest.network.PacketJumpscare
+import net.minecraftforge.fml.common.network.NetworkRegistry
+import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+import net.minecraftforge.fml.relauncher.Side
 
-import net.minecraftforge.fml.common.network.NetworkRegistry;
-import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
-import net.minecraftforge.fml.relauncher.Side;
+object ModNetwork {
+    @JvmField
+    val INSTANCE: SimpleNetworkWrapper = NetworkRegistry.INSTANCE.newSimpleChannel("piggymod")
 
-public class ModNetwork {
-    public static final SimpleNetworkWrapper INSTANCE = NetworkRegistry.INSTANCE.newSimpleChannel("piggymod");
-
-    public static void registerPackets() {
-        int id = 0;
-        INSTANCE.registerMessage(PacketJumpscare.Handler.class, PacketJumpscare.class, id++, Side.CLIENT);
-        //INSTANCE.registerMessage(PacketAnimation.Handler.class, PacketAnimation.class, id++, Side.CLIENT);
+    fun registerPackets() {
+        var id = 0
+        INSTANCE.registerMessage(
+            PacketJumpscare.Handler::class.java,
+            PacketJumpscare::class.java,
+            id++,
+            Side.CLIENT
+        )
+        // INSTANCE.registerMessage(PacketAnimation.Handler::class.java, PacketAnimation::class.java, id++, Side.CLIENT) // not used yet
     }
 }

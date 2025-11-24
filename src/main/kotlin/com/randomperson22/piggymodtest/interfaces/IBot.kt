@@ -1,6 +1,8 @@
-package com.randomperson22.piggymodtest.interfaces;
+package com.randomperson22.piggymodtest.interfaces
 
-public interface IBot {
-    int getPriority(); // 1 = low, 2 = high
-    void getStunned(int ticks);
+interface IBot {
+    // 1 = low, 2 = high
+    val priority: Int
+
+    fun getStunned(ticks: Int)
 }

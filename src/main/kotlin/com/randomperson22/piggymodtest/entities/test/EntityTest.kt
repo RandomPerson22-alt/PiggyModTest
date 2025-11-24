@@ -1,18 +1,12 @@
-package com.randomperson22.piggymodtest.entities.test;
+package com.randomperson22.piggymodtest.entities.test
 
-import com.randomperson22.piggymodtest.entities.EntityPiggyBase;
+import com.randomperson22.piggymodtest.entities.EntityPiggyBase
+import com.randomperson22.piggymodtest.init.ModSounds
+import net.minecraft.util.SoundEvent
+import net.minecraft.world.World
 
-import net.minecraft.util.SoundEvent;
-import net.minecraft.world.World;
-
-public class EntityTest extends EntityPiggyBase {
-    public EntityTest(World worldIn) {
-        super(worldIn);
-    }
-
-	@Override
-	protected SoundEvent getJumpscareSound() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+//used btw
+class EntityTest(worldIn: World) : EntityPiggyBase(worldIn) {
+    override val jumpscareSound: SoundEvent
+        get() = ModSounds.ENTITY_PIGGY_JUMPSCARE
 }

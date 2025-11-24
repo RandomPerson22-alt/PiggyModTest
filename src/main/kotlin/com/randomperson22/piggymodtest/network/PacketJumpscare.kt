@@ -1,6 +1,6 @@
 package com.randomperson22.piggymodtest.network
 
-import com.randomperson22.piggymodtest.events.Jumpscare_Handler
+import com.randomperson22.piggymodtest.events.JumpscareHandler
 import io.netty.buffer.ByteBuf
 import net.minecraft.client.Minecraft
 import net.minecraft.entity.EntityLivingBase
@@ -34,7 +34,7 @@ class PacketJumpscare() : IMessage {
                 val player = Minecraft.getMinecraft().player
                 if (entity is EntityLivingBase) {
                     // Trigger jumpscare only for the targeted player
-                    Jumpscare_Handler.triggerJumpscareClient(entity, player, message.duration)
+                    JumpscareHandler.triggerJumpscareClient(entity, player, message.duration)
                 }
             }
             return null

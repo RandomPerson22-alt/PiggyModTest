@@ -1,13 +1,13 @@
-package com.randomperson22.piggymodtest.events;
+package com.randomperson22.piggymodtest.events
 
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.common.MinecraftForge
+import net.minecraftforge.fml.relauncher.Side
+import net.minecraftforge.fml.relauncher.SideOnly
 
 @SideOnly(Side.CLIENT)
-public class TickHandler {
+object TickHandler {
 
-    public static void register() {
-        MinecraftForge.EVENT_BUS.register(new TickHandler());
+    fun register() {
+        MinecraftForge.EVENT_BUS.register(this)
     }
 }
