@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"move": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"YellowOrb": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -90]
+						},
+						"2.0": {
+							"vector": [360, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

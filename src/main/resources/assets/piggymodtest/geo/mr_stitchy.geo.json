@@ -1,0 +1,160 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mr_stitchy_base",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Mr_Stitchy",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "Mr_Stitchy",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 26, 0],
+					"cubes": [
+						{"origin": [-4, 24, -2], "size": [8, 12, 4], "uv": [30, 16]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 36, 0],
+					"cubes": [
+						{"origin": [-4, 36, -4], "size": [8, 8, 8], "inflate": 0.5, "uv": [0, 0]},
+						{"origin": [-1, 39.7, -6.1], "size": [2, 1, 1], "inflate": 0.1, "uv": [0, 50]},
+						{"origin": [-2, 36.6, -6], "size": [4, 4, 2], "uv": [44, 32]}
+					]
+				},
+				{
+					"name": "orejas",
+					"parent": "head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4.2, 44.5, -0.5], "size": [3, 2, 1], "uv": [32, 13]},
+						{"origin": [1.2, 44.5, -0.5], "size": [3, 2, 1], "uv": [40, 13]}
+					]
+				},
+				{
+					"name": "ojos",
+					"parent": "head",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "contornos",
+					"parent": "ojos",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [2.2, 40.5, -4.6], "size": [2, 2, 1], "inflate": 0.2, "uv": [22, 45], "mirror": true},
+						{"origin": [-4.2, 40.5, -4.6], "size": [2, 2, 1], "inflate": 0.2, "uv": [22, 45]}
+					]
+				},
+				{
+					"name": "ojo_izquierdo",
+					"parent": "ojos",
+					"pivot": [0, 15, -10],
+					"mirror": true,
+					"cubes": [
+						{"origin": [2.2, 40.5, -5], "size": [2, 2, 1], "uv": [48, 13], "mirror": false}
+					]
+				},
+				{
+					"name": "pupila_izquierda",
+					"parent": "ojo_izquierdo",
+					"pivot": [3.2, 41.5, -4.7],
+					"mirror": true,
+					"cubes": [
+						{"origin": [1.7, 40, -6], "size": [3, 3, 3], "inflate": -0.95, "uv": [44, 38], "mirror": false}
+					]
+				},
+				{
+					"name": "ojo_derecho",
+					"parent": "ojos",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-4.2, 40.5, -5], "size": [2, 2, 1], "uv": [22, 48]}
+					]
+				},
+				{
+					"name": "RightArm",
+					"parent": "body",
+					"pivot": [-5, 33.5, 0],
+					"cubes": [
+						{"origin": [-7, 10.5, -2], "size": [3, 25, 4], "uv": [16, 16]}
+					]
+				},
+				{
+					"name": "rightItem",
+					"parent": "RightArm",
+					"pivot": [-6, 15, 1]
+				},
+				{
+					"name": "lantern",
+					"parent": "rightItem",
+					"pivot": [-5.7, 10.35, -0.1],
+					"cubes": [
+						{"origin": [-8.7, 0.6, -3.1], "size": [6, 7, 6], "uv": [32, 0]},
+						{"origin": [-7.7, 7.6, -2.1], "size": [4, 2, 4], "uv": [0, 44]}
+					]
+				},
+				{
+					"name": "chain1",
+					"parent": "lantern",
+					"pivot": [-5.7, 9.6, -0.1],
+					"rotation": [0, 50, 0],
+					"cubes": [
+						{"origin": [-5.7, 9.6, -1.6], "size": [0, 4, 3], "uv": [44, 44]}
+					]
+				},
+				{
+					"name": "chain2",
+					"parent": "lantern",
+					"pivot": [-5.7, 9.6, -0.1],
+					"rotation": [0, -50, 0],
+					"cubes": [
+						{"origin": [-5.7, 9.6, -1.6], "size": [0, 4, 3], "uv": [16, 45]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"parent": "body",
+					"pivot": [5, 33.5, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [4, 10.5, -2], "size": [3, 25, 4], "inflate": 0.25, "uv": [16, 16]},
+						{"origin": [4, 15.5, -2], "size": [3, 20, 4], "inflate": 0.25, "uv": [30, 32], "mirror": false}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"parent": "Mr_Stitchy",
+					"pivot": [-2, 24, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 24, 4], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "LeftLeg",
+					"parent": "Mr_Stitchy",
+					"pivot": [1.9, 24, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [0, 0, -2], "size": [4, 24, 4], "uv": [0, 16]}
+					]
+				}
+			]
+		}
+	]
+}

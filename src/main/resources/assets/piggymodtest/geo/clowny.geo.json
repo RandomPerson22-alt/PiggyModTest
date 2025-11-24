@@ -1,0 +1,165 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.clowny",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Clowny",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "Clowny",
+					"pivot": [0, 12, 0],
+					"rotation": [5, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [16, 16]},
+						{"origin": [-4.5, 21, -2.5], "size": [9, 3, 5], "inflate": 0.1, "uv": [32, 32]},
+						{"origin": [-1, 14, -2.5], "size": [2, 2, 2], "uv": [56, 16]},
+						{"origin": [-1, 18, -2.5], "size": [2, 2, 2], "uv": [56, 16]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.5, "uv": [0, 0]},
+						{"origin": [-1.5, 25.4, -5.5], "size": [3, 3, 2], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "clowny_pelo",
+					"parent": "head",
+					"pivot": [1, 8, 0],
+					"cubes": [
+						{"origin": [6, 28, -2], "size": [4, 6, 4], "inflate": 0.01, "uv": [0, 32], "mirror": true},
+						{"origin": [4, 27, -2], "size": [4, 4, 4], "uv": [16, 32], "mirror": true},
+						{"origin": [-8, 27, -2], "size": [4, 4, 4], "uv": [16, 32]},
+						{"origin": [-10, 28, -2], "size": [4, 6, 4], "inflate": 0.01, "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "ojos",
+					"parent": "head",
+					"pivot": [0, 23.5, 0]
+				},
+				{
+					"name": "ojo_izquierdo",
+					"parent": "ojos",
+					"pivot": [-0.2, 0, -10],
+					"cubes": [
+						{"origin": [2, 28.5, -5], "size": [2, 2, 1], "uv": [58, 3]}
+					]
+				},
+				{
+					"name": "pupila_izquierda",
+					"parent": "ojo_izquierdo",
+					"pivot": [2.5, 29, -4.5],
+					"cubes": [
+						{"origin": [2, 28.5, -5], "size": [1, 1, 1], "inflate": 0.01, "uv": [60, 6]}
+					]
+				},
+				{
+					"name": "ojo_derecho",
+					"parent": "ojos",
+					"pivot": [0.2, 0, 0],
+					"cubes": [
+						{"origin": [-4, 28.5, -5], "size": [2, 2, 1], "uv": [58, 3]}
+					]
+				},
+				{
+					"name": "pupila_derecha",
+					"parent": "ojo_derecho",
+					"pivot": [-2.5, 29, -4.5],
+					"cubes": [
+						{"origin": [-3, 28.5, -5], "size": [1, 1, 1], "inflate": 0.01, "uv": [60, 6]}
+					]
+				},
+				{
+					"name": "contorno_ojos",
+					"parent": "ojos",
+					"pivot": [0, -11.5, 0],
+					"cubes": [
+						{"origin": [2, 28.5, -4.6], "size": [2, 2, 1], "inflate": 0.2, "uv": [0, 2], "mirror": true},
+						{"origin": [-4, 28.5, -4.6], "size": [2, 2, 1], "inflate": 0.2, "uv": [0, 2]}
+					]
+				},
+				{
+					"name": "cachetes",
+					"parent": "head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [3.2, 26, -4.2], "size": [1, 1, 1], "inflate": 0.5, "uv": [0, 0]},
+						{"origin": [-4.2, 26, -4.2], "size": [1, 1, 1], "inflate": 0.5, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "hat",
+					"parent": "head",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "rightArm",
+					"parent": "body",
+					"pivot": [-5, 22, 0],
+					"rotation": [7.50625, -31.42925, 4.92153],
+					"cubes": [
+						{"origin": [-8, 12, -2], "size": [4, 12, 4], "uv": [40, 16]}
+					]
+				},
+				{
+					"name": "hammer",
+					"parent": "rightArm",
+					"pivot": [-6, 14, -1],
+					"rotation": [90, 0, 0],
+					"cubes": [
+						{"origin": [-7, 12, -2], "size": [2, 10, 2], "uv": [31, 41]},
+						{"origin": [-8.5, 22, -5], "size": [5, 5, 8], "uv": [31, 45]}
+					]
+				},
+				{
+					"name": "leftArm",
+					"parent": "body",
+					"pivot": [5, 22, 0],
+					"rotation": [-20, 0, 0],
+					"cubes": [
+						{"origin": [4, 12, -2], "size": [4, 12, 4], "uv": [40, 16], "mirror": true}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "Clowny",
+					"pivot": [-1.9, 12, 0],
+					"rotation": [5, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 12, 4], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "Clowny",
+					"pivot": [1.9, 12, -0.5],
+					"rotation": [-4.5, 0, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [0, 0, -2.5], "size": [4, 12, 4], "uv": [0, 16]}
+					]
+				}
+			]
+		}
+	]
+}

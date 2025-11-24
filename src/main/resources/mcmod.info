@@ -1,0 +1,17 @@
+[
+    {
+        "modid": "piggymodtest",
+        "name": "Piggy Mod",
+        "description": "Esteban1307ty's Piggy Add-on ported (and slightly customized) to java.
+        
+        This mod adds almost all the charecters, items, events and blocks from the popular roblox game Piggy by minitoon enjoy. !This mod was originally an add-on made by esteban1303yt!",
+        "version": "1.4",
+        "mcversion": "1.12.2",
+        "authorList": [
+            "randomperson22"
+        ],
+        "dependencies": [
+            "required-after:geckolib3@[3.0.31,)"
+        ]
+    }
+]
