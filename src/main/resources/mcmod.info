@@ -1,0 +1,15 @@
+[
+    {
+        "modid": "piggymodtest",
+        "name": "Piggy Mod",
+      "description": "Esteban1307ty's Piggy Add-on ported (and slightly customized) to java.\n\nThis mod adds almost all the characters, items, events and blocks from the popular Roblox game Piggy by minitoon. What I have done is take a Bedrock addon that does mostly what this mod does and make it work for Minecraft Java. Enjoy.",
+      "version": "1.3",
+        "mcversion": "1.12.2",
+        "authorList": [
+            "Randomperson22"
+        ],
+        "dependencies": [
+            "required-after:geckolib3@[3.0.31,)"
+        ]
+    }
+]

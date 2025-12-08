@@ -1,0 +1,242 @@
+{
+  "entity.piggy.jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/piggy/jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.mother.mother_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/mother/mother_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.sheepy.sheepy_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/sheepy/sheepy_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.kona.kona_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/kona/kona_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.owell.owell_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/owell/owell_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.grandmother.grandmother_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/grandmother/grandmother_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.teacher.teacher_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/teacher/teacher_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.pandy.pandy_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/pandy/pandy_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.memory.memory_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/memory/memory_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.kitty.kitty_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/kitty/kitty_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.mimi.mimi_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/mimi/mimi_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.doggy.doggy_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/doggy/doggy_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.dinopiggy.dinopiggy_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/dinopiggy/dinopiggy_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.zizzy.zizzy_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/zizzy/zizzy_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.zompiggy.zompiggy_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/zompiggy/zompiggy_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.sentinel.sentinel_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/sentinel/sentinel_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.mr_stitchy.mrstitchy_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/mr_stitchy/mrstitchy_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.robby.robby_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/robby/robby_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.duocara.duocara_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/duocara/duocara_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.mr_p.mrp_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/mr_p/mrp_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.dessa.dessa_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/dessa/dessa_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.billy.billy_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/billy/billy_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.bela.bela_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/bela/bela_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.frostiggy.frostiggy_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/frostiggy/frostiggy_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.distortedpenny.distortedpenny_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/distortedpenny/distortedpenny_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.badgy.badgy_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/badgy/badgy_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.piggyexe.piggyexe_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/piggyexe/piggyexe_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "entity.piggy.step": {
+    "sounds": [
+      {
+        "name": "piggymodtest:footsteps/footsteps",
+        "stream": false
+      }
+    ]
+  },
+  "entity.duocara.step": {
+    "sounds": [
+      {
+        "name": "piggymodtest:footsteps/duocara_move",
+        "stream": false
+      }
+    ]
+  },
+  "entity.kamosi.kamosi_jumpscare": {
+    "sounds": [
+      {
+        "name": "piggymodtest:entity/kamosi/kamosi_jumpscare",
+        "stream": false
+      }
+    ]
+  }
+}
